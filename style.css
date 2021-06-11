@@ -1,0 +1,551 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#body-section{
+    background: url("sushil-ghimire-5UbIqV58CW8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+/* logo section */
+.logo{
+    width: 40%;
+}
+
+#heading{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 21px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    font-size: 35px;
+}
+/* oue content section */
+.content{
+    width: 60%;
+}
+
+.content,ul{
+    display: flex;
+}
+
+.content,li{
+    list-style: none;
+    padding: 15px;
+    padding-left: 43px;
+}
+
+content,a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+a:hover{
+    color: black;
+    background: white;
+    padding: 6px;
+}
+
+.active{
+    background: white;
+    padding: 6px;
+    color: black;
+    box-shadow: 1px 1px 1px black;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hire{
+    width: 120px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+#hire:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+    transform: rotate(360deg);
+}
+
+/* about section */
+
+#about{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner-about1{
+width: 400px;
+height: 428px;
+background-color: #f0f5f9;
+margin: 20px;
+border: 1px solid lightgray;
+}
+
+.inner-about2{
+    width: 400px;
+height: 428px;
+background-color: #f0f5f9;
+border: 1px solid lightgray;
+margin: 20px;
+}
+
+.inner-about3{
+    width: 400px;
+height: 428px;
+background-color: #f0f5f9;
+border: 1px solid lightgray;
+margin: 20px;
+
+}
+
+/* survice */
+
+#survice{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.outer-survice-1{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-survice1{
+    /* background-color: salmon; */
+    width: 341px;
+    height: 231px;
+    margin: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-survice2{
+    /* background-color: springgreen; */
+    width: 300px;
+    height: 219px;
+    margin: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.outer-survice-2{
+    /* background-color: rgb(151, 151, 151); */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-survice3{
+    /* background-color: rgb(84, 16, 148); */
+    width: 300px;
+    height: 219px;
+    margin: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-survice4{
+    /* background-color: rgb(146, 11, 11); */
+    width: 300px;
+    height: 219px;
+    margin: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#survice-button{
+    width: 234px;
+    padding: 13px;
+    background-color: #0c4271;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border: 1px solid #0c4271;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 19px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+#contact{
+    width: 100%;
+    height: 583px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#name1{
+    width: 412px;
+    padding: 15px;
+    background: white;
+    color: black;
+    border: 1px solid grey;
+    outline: none;
+    margin: 10px;
+}
+
+#email1{
+    width: 412px;
+    padding: 15px;
+    background: white;
+    color: black;
+    border: 1px solid grey;
+    outline: none;
+}
+
+#password1{
+    width: 412px;
+    padding: 15px;
+    background: white;
+    color: black;
+    border: 1px solid grey;
+    outline: none;
+    margin: 10px;
+}
+
+#textarea{
+    width: 412px;
+    padding: 15px;
+    background: white;
+    color: black;
+    border: 1px solid grey;
+    outline: none;
+    margin: 10px;
+}
+
+#submit{
+    width: 412px;
+    padding: 15px;
+    outline: none;
+    margin: -3px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#submit:hover{
+        color: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
+        transition: 0.5s ease;
+
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#sign-up{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(to bottom right,orange,red); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sign{
+    width: 500px;
+    outline: none;
+    padding: 20px;
+}
+
+#sub{
+    width: 127px;
+    padding: 20px;
+    background: #2940d3;
+    border: 1px solid #2940d3;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#sub:hover{
+    border: 1px solid #2940d3;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: 0.5s ease all;
+}
+
+.social-icon{
+    /* background-color: red; */
+    width: 270px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+}
+
+#facebook{
+    padding: 18px;
+    padding-top: 16px;
+    padding-bottom: 25px;
+    background: white;
+    border-radius: 53px;
+    width: 46px;
+    height: 46px;
+background-color: #3b5998;
+color: white;
+cursor: pointer;
+}
+
+#whatsapp{
+    padding: 18px;
+    padding-top: 16px;
+    padding-bottom: 25px;
+    padding-left: 16px;
+    background: white;
+    border-radius: 53px;
+    width: 46px;
+    height: 46px;
+background-color: #25d366;
+color: white;
+cursor: pointer;
+}
+
+#twitter{
+    padding: 18px;
+    padding-top: 16px;
+    padding-bottom: 25px;
+    padding-left: 16px;
+    background: white;
+    border-radius: 53px;
+    width: 46px;
+    height: 46px;
+background-color: #1DA1F2;
+color: white;
+cursor: pointer;
+}
+
+#github{
+    padding: 18px;
+    padding-top: 16px;
+    padding-bottom: 25px;
+    padding-left: 16px;
+    background: white;
+    border-radius: 53px;
+    width: 46px;
+    height: 46px;
+background-color: #24292e;
+color: white;
+cursor: pointer;
+}
+
+#fuck{
+    border: 1px solid white;padding: 10px; border-radius: 3px;background: white;color: black;
+}
+
+#fuck:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+}
+
+#arrow-up{
+    background: red;
+    padding: 16px;
+    border-radius: 50px;
+    position: fixed;
+    top: 598px;
+    left: 1267px;
+}
+
+/* #arrow-up:hover{
+    background-color: transparent;
+    color: white;
+} */
+
+#arrow2{
+    background-color: transparent;
+    color: white;
+}
+
+
+@media (max-width:1008px){
+  .navbar{
+      background: rgba(0,0,0,0.5);
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  /* logo section */
+  .logo{
+      width: 100%;
+  }
+
+  #heading{
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      padding: 21px;
+      text-transform: uppercase;
+      text-indent: 15px;
+      font-size: 35px;
+      width: 300px;
+      height: 36px;
+      display: block;
+      margin: auto;
+  }
+  /* oue content section */
+  .content{
+      width: 100%;
+  }
+
+  .content,ul{
+      display: flex;
+      justify-content: center;
+  }
+
+}
+
+@media (max-width:1339px){
+  #about{
+      width: 100%;
+      height: 144vh;
+      /* background-color: red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+}
+
+@media (max-width:898px){
+
+  #about{
+      width: 100%;
+      height: 219vh;
+      /* background-color: red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  }
+
+
+@media (max-width:870px){
+
+  #survice{
+      width: 100%;
+      height: 200vh;
+      /* background-color: red; */
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+
+
+  .outer-survice-1{
+      /* background-color: blueviolet; */
+      width: 100%;
+      height: 50%;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
+
+  .outer-survice-2{
+      /* background-color: blueviolet; */
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+}
+
+@media (max-width:594px){
+  .content, li {
+    list-style: none;
+    padding: 15px;
+    padding-left: 17px;
+}
+}
+
+@media (max-width:527px){
+  #sign{
+        width: 458px;
+  }
+}
